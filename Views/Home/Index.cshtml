@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Добро пожаловать на главную страницу</h1>
+
+<p>Выберите сущность:</p>
+
+<ul>
+    <li><a asp-controller="Users" 
+        asp-action="Index">Пользователи</a></li>
+    <li><a asp-controller="Products" 
+        asp-action="Index">Продукты</a></li>
+    <li><a asp-controller="Categories" 
+        asp-action="Index">Категории</a></li>
+    <li><a asp-controller="Orders" 
+        asp-action="Index">Заказы</a></li>
+</ul>
